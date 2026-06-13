@@ -9,7 +9,6 @@ This project is an end-to-end AI and Data Engineering application that tracks re
 
 The system operates via an automated pipeline that fetches live cryptocurrency market data, processes it, engineers time-series features, trains a predictive model, and serves the insights through an interactive and user-friendly Streamlit dashboard.
 
-*(Optional: Insert a screenshot of your dashboard here)*
 ---
 
 ## ✨ Features
@@ -53,11 +52,19 @@ The system operates via an automated pipeline that fetches live cryptocurrency m
 ```text
 Bitcoin_AI_Project/
 │
-├── data/                  # Processed dataset storage
-├── models/                # Saved machine learning model artifacts
-├── logs/                  # Application and pipeline logs
+├── app.py                 # Streamlit Dashboard
+├── pipeline.py            # Data Pipeline + ML Training
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+├── .gitignore             # Git ignore rules
+├── run.sh                 # Run script
 │
-├── pipeline.py            # Data fetching, preprocessing, and model training pipeline
-├── app.py                 # Streamlit interactive dashboard
-├── requirements.txt       # Project dependencies
-└── README.md              # Project documentation
+├── data/
+│     └── crypto_data.csv  # Processed data
+│
+├── models/
+│     └── crypto_model.pkl # Trained model
+│
+├── logs/                  # Logs
+│
+└── .venv/                 # Virtual environment (not pushed to GitHub)

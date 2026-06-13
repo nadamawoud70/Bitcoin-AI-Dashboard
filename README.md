@@ -1,3 +1,4 @@
+<img width="1512" height="982" alt="‏لقطة الشاشة ٢٠٢٦-٠٦-١٤ في ٢ ٢٠ ٢٨ ص" src="https://github.com/user-attachments/assets/15e0ea1b-e989-4256-8b16-c1d6a5549d78" />
 # 🚀 Bitcoin AI Price Forecasting Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -25,7 +26,8 @@ The system operates via an automated pipeline that fetches live cryptocurrency m
 
 ---
 
-## ⚙️ Workflow Architecture
+## ⚙️ Workflow Architecture<img width="1512" height="982" alt="‏لقطة الشاشة ٢٠٢٦-٠٦-١٤ في ٢ ٢٠ ٢٨ ص" src="https://github.com/user-attachments/assets/11383a34-771f-4c29-be46-cb1de86655ff" />
+
 
 1. **Fetch:** Pull real-time Bitcoin price data from the CoinGecko API.
 2. **Preprocess:** Clean data and generate lag features for forecasting.
@@ -68,3 +70,7 @@ Bitcoin_AI_Project/
 ├── logs/                  # Logs
 │
 └── .venv/                 # Virtual environment (not pushed to GitHub)
+
+
+<img width="1512" height="982" alt="‏لقطة الشاشة ٢٠٢٦-٠٦-١٤ في ٢ ٢٠ ٢٨ ص" src="https://github.com/user-attachments/assets/73ab5396-f453-4dbb-a859-8287a0ac310f" />
+
